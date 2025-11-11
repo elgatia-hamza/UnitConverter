@@ -15,8 +15,18 @@
         <url-pattern>/length</url-pattern>
     </servlet-mapping>
 
-    <!-- Page par défaut -->
     <welcome-file-list>
         <welcome-file>length.html</welcome-file>
     </welcome-file-list>
+
+    <servlet>
+        <servlet-name>WeightConverter</servlet-name>
+        <servlet-class>com.example.unitconverter.WeightConverterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>WeightConverter</servlet-name>
+        <url-pattern>/weight</url-pattern>
+    </servlet-mapping>
+
 </web-app>
