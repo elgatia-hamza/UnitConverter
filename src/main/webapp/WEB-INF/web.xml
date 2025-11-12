@@ -29,4 +29,14 @@
         <url-pattern>/weight</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>TemperatureConverter</servlet-name>
+        <servlet-class>com.example.unitconverter.TemperatureConverterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TemperatureConverter</servlet-name>
+        <url-pattern>/temperature</url-pattern>
+    </servlet-mapping>
+
 </web-app>
